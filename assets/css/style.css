@@ -684,16 +684,16 @@ html {
 
 		.contact__info-mail {
 			#mail {
-				color: #000000;
+				color: var(--primary-color);
 			}
 		}
 
 		.contact__info-number {
 			#phone {
-				color: #000000;
+				color: var(--primary-color);
 			}
 			#WhatsApp {
-				color: #000000;
+				color: var(--primary-color);
 			}
 		}
 		.contact__form {
