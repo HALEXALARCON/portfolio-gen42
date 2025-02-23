@@ -535,7 +535,7 @@ html {
 	}
 }
 
-/* ============= About ============= --------------------------------------------*/
+/* ============= About ============= */
 .about {
 	background-color: var(--bg-color-section2);
 	overflow: hidden;
@@ -603,7 +603,7 @@ html {
 						}
 					}
 					.skills__card-container {
-						color: var(--bg-color-section2);
+						color: light-dark(#fafafa, #1f013bff);
 						height: 300px;
 						overflow: hidden;
 					}
@@ -630,8 +630,8 @@ html {
 				font-weight: var(--font-semi-bold);
 				font-size: var(--small-font-size);
 				background-color: var(--primary-color);
-				color: var(--bg-color-section2);
-				border-radius: 5px;
+				color: light-dark(#fafafa, #1f013bff);
+				border-radius: 5px; /*------------------------------------------------------*/
 			}
 		}
 	}
@@ -665,7 +665,7 @@ html {
 					gap: 1rem;
 					.projects__button {
 						color: var(--bg-color-section2);
-						background-color: var(--primary-color);
+						background-color: var(--bg-color);
 						padding: 0.75rem 1.5rem;
 						font-size: var(--small-font-size);
 					}
