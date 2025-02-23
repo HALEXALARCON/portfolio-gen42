@@ -7,9 +7,10 @@
 
 	/* Colors */
 	--primary-color: light-dark(#111, #ffffffcc);
-	--bg-color-section1: light-dark(#def3ff, #111);
-	--bg-color-section2: light-dark(#fafafa, #bf7bffc7);
-	--bg-color-section3: light-dark(#def3ff, #bf7bffc7);
+	--bg-color-section1: light-dark(#bee8ff, #111);
+	--bg-color-section2: light-dark(#e9f6fd, #bf7bffc7);
+	--bg-color-section3: light-dark(#bee8ff, #bf7bffc7);
+	--bg-color-section4: light-dark(#70cdff, #d7adffc7);
 	--bg-color: light-dark(#0a0283, #1e0238);
 	--border-color2: light-dark(#426ea8, #bf7bffc7);
 	--btn-color2: light-dark(#07ffff, #e1c1ff);
@@ -491,7 +492,7 @@ html {
 			flex-direction: column;
 			row-gap: var(--mr-2);
 			.home__social-link {
-				color: #777;
+				color: #30235f;
 				font-size: 1.7rem;
 				transition: color 0.3s;
 				text-align: center;
@@ -595,7 +596,7 @@ html {
 
 						.bx {
 							width: 50px;
-							background-color: var(--bg-color-section2);
+							background-color: light-dark(#6fccfd, #7128b4c7);
 							color: var(--primary-color);
 							font-size: 3rem;
 							border-radius: 50%;
@@ -603,7 +604,7 @@ html {
 						}
 					}
 					.skills__card-container {
-						color: light-dark(#fafafa, #1f013bff);
+						color: light-dark(#03a7ff, #3d0536);
 						height: 300px;
 						overflow: hidden;
 					}
@@ -630,8 +631,8 @@ html {
 				font-weight: var(--font-semi-bold);
 				font-size: var(--small-font-size);
 				background-color: var(--primary-color);
-				color: light-dark(#fafafa, #1f013bff);
-				border-radius: 5px; /*------------------------------------------------------*/
+				color: light-dark(#6fccfd, #3d0536);
+				border-radius: 5px;
 			}
 		}
 	}
@@ -775,10 +776,10 @@ html {
 				font-size: 1.5rem;
 
 				.footer__social-link {
-					color: var(--bg-color-section2);
+					color: var(--bg-color-section4);
 					transition: text-shadow 0.3s;
 					&:hover {
-						text-shadow: 2px 3px #ee991a55;
+						text-shadow: 2px 3px var(--bg-color-section4);
 					}
 				}
 				.footer__social-link {
