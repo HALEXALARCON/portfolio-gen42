@@ -15,7 +15,7 @@
 	--border-color2: light-dark(#426ea8, #bf7bffc7);
 	--btn-color2: light-dark(#07ffff, #e1c1ff);
 	--box-shadow2: light-dark(#00ffff, #ff00ff);
-	--text-shadow: light-dark(#0a0283, #bf7bffc7);
+	--text-shadow: light-dark(#0a0283, #5e308ac7);
 	/* Typografy */
 	--normal-font-size: 16px;
 	--small-font-size: 12px;
