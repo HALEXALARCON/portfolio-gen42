@@ -8,8 +8,8 @@
 	/* Colors */
 	--primary-color: light-dark(#050018, #cacaca);
 	--bg-color-section1: light-dark(#bee8ff, #111);
-	--bg-color-section2: light-dark(#e9f6fd, #9478afc7);
-	--bg-color-section3: light-dark(#bee8ff, #9478afc7);
+	--bg-color-section2: light-dark(#e9f6fd, #ac5afac7);
+	--bg-color-section3: light-dark(#bee8ff, #ac5afac7);
 	--bg-color-section4: light-dark(#70cdff, #d7adffc7);
 	--bg-color: light-dark(#04003a, #1e0238);
 	--border-color2: light-dark(#00ffff, #bf7bffc7);
