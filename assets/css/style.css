@@ -12,10 +12,10 @@
 	--bg-color-section3: light-dark(#bee8ff, #bf7bffc7);
 	--bg-color-section4: light-dark(#70cdff, #d7adffc7);
 	--bg-color: light-dark(#04003a, #1e0238);
-	--border-color2: light-dark(#426ea8, #bf7bffc7);
-	--btn-color2: light-dark(#07ffff, #e1c1ff);
+	--border-color2: light-dark(#00ffff, #bf7bffc7);
+	--btn-color2: light-dark(#00aeff, #e1c1ff);
 	--box-shadow2: light-dark(#00ffff, #ff00ff);
-	--text-shadow: light-dark(#3e31ec, #5e308ac7);
+	--text-shadow: light-dark(#0a0091, #5e308ac7);
 	/* Typografy */
 	--normal-font-size: 16px;
 	--small-font-size: 12px;
@@ -215,7 +215,7 @@ html {
 			padding: 2rem 0;
 			transition: all 0.6s;
 			z-index: var(--z-modal);
-
+			/* -------------------------------------------------------------------------- */
 			&:target {
 				top: 0;
 			}
