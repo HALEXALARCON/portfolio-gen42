@@ -6,16 +6,16 @@
 	--header-height: 60px;
 
 	/* Colors */
-	--primary-color: light-dark(#111, #ffffffcc);
+	--primary-color: light-dark(#050018, #cacaca);
 	--bg-color-section1: light-dark(#bee8ff, #111);
 	--bg-color-section2: light-dark(#e9f6fd, #bf7bffc7);
 	--bg-color-section3: light-dark(#bee8ff, #bf7bffc7);
 	--bg-color-section4: light-dark(#70cdff, #d7adffc7);
-	--bg-color: light-dark(#0a0283, #1e0238);
+	--bg-color: light-dark(#04003a, #1e0238);
 	--border-color2: light-dark(#426ea8, #bf7bffc7);
 	--btn-color2: light-dark(#07ffff, #e1c1ff);
 	--box-shadow2: light-dark(#00ffff, #ff00ff);
-	--text-shadow: light-dark(#0a0283, #5e308ac7);
+	--text-shadow: light-dark(#3e31ec, #5e308ac7);
 	/* Typografy */
 	--normal-font-size: 16px;
 	--small-font-size: 12px;
@@ -130,7 +130,7 @@ html {
 }
 
 ::-webkit-scrollbar {
-	width: 10px;
+	width: 11px;
 }
 
 ::-webkit-scrollbar-track {
@@ -587,6 +587,9 @@ html {
 					width: inherit;
 					transition: 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
 					overflow: hidden;
+					color: light-dark(#cde0e9, #3d0536);
+					height: 300px;
+					overflow: hidden;
 
 					.skills__cards-title {
 						list-style: none;
@@ -596,17 +599,12 @@ html {
 
 						.bx {
 							width: 50px;
-							background-color: light-dark(#6fccfd, #7128b4c7);
+							background-color: light-dark(#cde0e9, #6a4c86c7);
 							color: var(--primary-color);
 							font-size: 3rem;
 							border-radius: 50%;
 							padding: 8px;
 						}
-					}
-					.skills__card-container {
-						color: light-dark(#03a7ff, #3d0536);
-						height: 300px;
-						overflow: hidden;
 					}
 
 					&[open] {
@@ -631,7 +629,7 @@ html {
 				font-weight: var(--font-semi-bold);
 				font-size: var(--small-font-size);
 				background-color: var(--primary-color);
-				color: light-dark(#6fccfd, #3d0536);
+				color: light-dark(#cde0e9, #3d0536);
 				border-radius: 5px;
 			}
 		}
@@ -759,8 +757,8 @@ html {
 
 /* ============= Footer ============= */
 .footer {
-	background-color: #111;
-	color: #efefef;
+	background-color: light-dark(#050018, #111);
+	color: light-dark(#cde0e9, #e5d8e7);
 	padding-bottom: 2rem;
 	.footer__container {
 		gap: 2rem;
